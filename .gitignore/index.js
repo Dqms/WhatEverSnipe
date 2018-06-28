@@ -6,6 +6,6 @@ var prefix = ("*")
 bot.login(process.env.TOKEN);
 
 bot.on('ready', function() {
-    bot.user.setGame("*help")
+    bot.user.setGame("Ready :)")
     console.log("Connected");
 });
